@@ -43,8 +43,7 @@ File: scss
                 border:0px;
             }
         }
-    } 
-    
+    }     
 }
 
 @media(max-width:1023px) {
@@ -102,5 +101,13 @@ File: scss
 
     .topbar {
       font-size: 16px;
+    }
+
+    .mat-card {
+        margin: 15px 0;
+    }
+
+    .page-content{
+        padding: 2px;
     }
 }
