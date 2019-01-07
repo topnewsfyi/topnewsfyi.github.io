@@ -527,6 +527,11 @@ MIT
 @angular/common
 MIT
 
+@angular/material/button
+
+@angular/animations
+MIT
+
 @angular/flex-layout
 MIT
 The MIT License
@@ -580,13 +585,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/animations
-MIT
-
 @angular/forms
 MIT
-
-@angular/material/button
 
 @angular/material/dialog
 
@@ -598,9 +598,9 @@ MIT
 
 @angular/material/toolbar
 
-@angular/material/sidenav
-
 @angular/material/icon
+
+@angular/material/sidenav
 
 @angular/material/menu
 
