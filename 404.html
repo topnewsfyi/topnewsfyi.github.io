@@ -32,6 +32,25 @@
 	</app-header>
 	</mat-toolbar>
   </noscript>
-<script type="text/javascript" src="runtime.1652f736e93a589cb800.js"></script><script type="text/javascript" src="polyfills.0ccacccd71df7c5ee014.js"></script><script type="text/javascript" src="scripts.806effac119676237f10.js"></script><script type="text/javascript" src="main.21e8adf966c728477992.js"></script></body>
+
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '629921270759481',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript" src="runtime.1d4aaa60300dc816face.js"></script><script type="text/javascript" src="polyfills.0ccacccd71df7c5ee014.js"></script><script type="text/javascript" src="scripts.806effac119676237f10.js"></script><script type="text/javascript" src="main.21e8adf966c728477992.js"></script></body>
 
 </html>
